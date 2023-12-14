@@ -32,7 +32,7 @@
                 <?php
                 $nomor = 1;
                 foreach ($ar_santri as $san) {
-                    echo '<tr><td>' . $nomor . '</td><td>' . $san->nama . '</td>';
+                    echo '<tr align ="center"><td>' . $nomor . '</td><td align ="left">' . $san->nama . '</td>';
                     echo '<td>' . $san->nilai . "</td><td>" . $san->getHasil() . "</td></tr>";
                     $nomor++;
                 }
